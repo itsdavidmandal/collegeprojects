@@ -18,7 +18,10 @@ Link of the video  : https://drive.google.com/file/d/1v544stKxVmZ98ez3ySvzv24xB9
 **Last Updated:** 2024-01-31
 
 **Author:** 
-David Ramovich Mandal 
+David Ramovich Mandal
+<br>
 Manish karki
+<br>
 Parisha Shrestha
+<br>
 Shubham Magar
