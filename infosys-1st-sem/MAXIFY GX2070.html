@@ -42,9 +42,9 @@
             font-weight: 700;
             color: black;
             text-decoration: none;
-            font-size: 2em;
+            font-size: 2em; /*this sets the font size of the logo text to twice the font size of its parent element*/
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 2px;/* adds 2 pixels of spacing between each letter*/
             transition: 0.6s;
         }
         nav.sticky {
@@ -99,20 +99,20 @@
             color: #fff;
             padding: 100px 0 30px;
             font-size: 13px;
-            line-height: 20px;
+            line-height: 20px; /*minimum height for each line of text*/
         }
 
         .row {
             width: 85%;
             margin: auto;
-            display: flex;
-            flex-wrap: wrap;
+            display: flex;/*Enables flexbox layout for the element*/
+            flex-wrap: wrap; /*Specifies that if elements don't fit in a single line, they should wrap to multiple lines instead of overflowing. */
             align-items: flex-start;
             justify-content: space-between;
         }
 
         .col {
-            flex-basis: 25%;
+            flex-basis: 25%; /* default, each .col element will occupy one-quarter of the width available within its parent container.*/
             padding: 10px;
 
         }
