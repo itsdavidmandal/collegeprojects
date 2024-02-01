@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-
+            /* Consistent box model for all elements */
         }
 
         /* Adjust the styles for the logo */
@@ -27,13 +27,14 @@
             left: 0;
             width: 100%;
             display: flex;
-            justify-content: space-between;
-            background: rgba(255, 255, 255, .1);
+            justify-content: space-between;/* add space between the characters */
+            background: rgba(255, 255, 255, .1); /* opacity of 10%*/
             align-items: center;
-            transition: 0.6s;
+            transition: 0.6s; /* This enables a smooth transition effect when the navigation bar's properties change, such as when it becomes sticky.*/
             padding: 40px 100px;
-            z-index: 100000;
-            backdrop-filter: blur(10px);
+            z-index: 100000;  /* Ensures it stays on top of other elements */
+            backdrop-filter: blur(10px); /* Creates a blurred background effect */
+            /*This applies a slight blur effect to the content behind the navigation bar, creating a depth and focus effect.*/
         }
 
         nav .logo{
