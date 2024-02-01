@@ -510,9 +510,20 @@ section::after{
     min-height: 1000px;
     margin: 50px;
     background: #fff;
-    display: grid;
-    grid-template-columns: 2fr 4fr;
+    display: grid; /* Enables grid layout for the container*/
+    grid-template-columns: 2fr 4fr; /*Divides the container into two columns:
+                                        The first column takes up 2/6ths (1/3rd) of the available width.
+                                        The second column occupies 4/6ths (2/3rds) of the width.*/
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+    /* 
+    0 35px 55px: These three values define the offset, blur, and spread of the shadow:
+
+    Offset: 0 indicates that the shadow starts directly below the element, with no horizontal offset.
+    Blur: 35px defines the blur radius of the shadow, making it softer and larger as the value increases.
+    Spread: 55px controls the size of the shadow relative to the blur radius. A positive value (here, 55px) spreads the shadow outwards, making it larger than the blur.
+    */
+    
     margin-top: 150px;
     
 }
@@ -539,6 +550,11 @@ section::after{
     position: relative;
     border-radius: 50%;
     overflow: hidden;
+    /*
+    overflow: hidden;
+
+    This property hides any content that overflows the dimensions of the element. Since the element has a fixed width and height (200px), any excess content from the image within it will be clipped and not displayed.
+    */
     width: 200px;
     height: 200px;
 
