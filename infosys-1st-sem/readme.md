@@ -1,4 +1,4 @@
-## Coursework: [Course name]
+## Coursework: InfoSys 1st sem coursework
 
 This folder contains all the files that were used in the !st sem infosys coursework
 
